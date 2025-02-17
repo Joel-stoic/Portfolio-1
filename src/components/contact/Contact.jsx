@@ -47,11 +47,11 @@ const Contact = () => {
             <motion.h1 variants={variants}>Let's work <br /> together</motion.h1>
             <motion.div className="item" variants={variants}>
                 <h3>Mail</h3>
-                <p>hello@gmail.com</p>
+                <p>joelimmanual.off@gmail.com</p>
             </motion.div>   
             <motion.div className="item" variants={variants}>
                  <h3>Address</h3>
-                <p>3rd street Veerpandipirivu</p>
+                <p>3rd street, Veerpandi-Pirivu,<br /> Coimbatore-641019</p>
             </motion.div> 
             <motion.div className="item" variants={variants}>
                 <h3>Phone</h3>
