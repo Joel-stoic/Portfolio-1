@@ -9,8 +9,8 @@
     gap: 50px;
     @include mobile{
         width: 100%;
-        padding: 10px;
         flex-direction: column;
+        gap: 30px;
     }
     .textContainer{
         flex: 1;
