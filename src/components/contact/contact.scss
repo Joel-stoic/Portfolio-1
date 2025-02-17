@@ -43,21 +43,14 @@
 
         @include mobile{
              padding: 20px;
-             width: 100%;
+             width: 80%;
         }
-        .phoneSvg{
-            stroke: orange;
-            position: absolute;
-            margin: auto;
-            z-index: -1;
-        }
-
         
         form{
             display: flex;
             flex-direction: column;
             gap: 20px;
-            
+           
             input,textarea{
                 padding: 20px;
                 background-color: transparent;
@@ -67,6 +60,8 @@
                 @include mobile{
                     padding: 10px;
                     
+                    
+                   
                 }
             }
             button{

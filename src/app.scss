@@ -27,13 +27,13 @@ section{
 }
 
 @mixin tablet{
-    @media(max-width:1024){
+    @media(max-width:1024px){
         @content
     };
 }
 
 @mixin destop{
-    @media(max-width:1366){
+    @media(max-width:1366px){
         @content
     }
 }

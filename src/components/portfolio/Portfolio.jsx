@@ -6,25 +6,25 @@ const items=[
 {
   id:1,
   title:"React Commerce",
-  img:"https://media.istockphoto.com/id/2191506623/photo/a-stand-podium-for-product-presentation-3d-render-illustration.jpg?s=612x612&w=0&k=20&c=YGu10YDoU6jM_nu4pHN2Mok1DR0IvmbuZA4XR04Xdlw=",
+  img:"./react.jpg",
   description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus eum sint iure quas voluptate dolores. Obcaecati vel itaque hic quos, dolore molestias aspernatur provident vero maxime eligendi porro quibusdam. Veritatis!"
 },
 {
   id:2,
   title:"Node js",
-  img:"https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600",
+  img:"./node.jpg",
   description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus eum sint iure quas voluptate dolores. Obcaecati vel itaque hic quos, dolore molestias aspernatur provident vero maxime eligendi porro quibusdam. Veritatis!"
 },
 {
   id:3,
   title:"Javascript",
-  img:"https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=600",
+  img:"./js.jpg",
   description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus eum sint iure quas voluptate dolores. Obcaecati vel itaque hic quos, dolore molestias aspernatur provident vero maxime eligendi porro quibusdam. Veritatis!"
 },
 {
   id:4,
   title:"Git Hub",
-  img:"https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&w=600",
+  img:"./git2.jpg",
   description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus eum sint iure quas voluptate dolores. Obcaecati vel itaque hic quos, dolore molestias aspernatur provident vero maxime eligendi porro quibusdam. Veritatis!"
 },
 ]
@@ -50,8 +50,8 @@ const Single =({item})=>{
                     <p>{item.description}</p>
                     <button>See demo</button>
                   </motion.div>
-            </div>
               </div>
+            </div>
              
         </section>
     
